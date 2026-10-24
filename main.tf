@@ -22,3 +22,4 @@ data "azurerm_resource_group" "lab" {
 output "azure_resource_group" {
   value = data.azurerm_resource_group.lab.name
 }
+# Validation de la connexion Azure - CR460
