@@ -15,7 +15,7 @@ provider "azurerm" {
   use_cli = false
 }
 
-# Lecture du groupe de ressources existant
+# Lecture du groupe de ressources existant CR460
 data "azurerm_resource_group" "lab" {
   name = "Polymtl-cr460"
 }
